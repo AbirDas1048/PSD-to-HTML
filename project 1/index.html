@@ -2,357 +2,362 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <title>PSD to HTML</title>
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cuda - An awesome single page portfolio html template</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- VENDORS FILES -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
 </head>
 
 <body>
-
-    <div class="first_section">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-               
-                 
-                <a href="" class="navbar-brand"><img src="img/logo.png" class="navbar-brand" alt="logo"></a>
-              
-                <button type="button" class="navbar-toggler btn-sm" data-toggle="collapse" data-target="#menu"
-                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="menu" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Work</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-                    </ul>
+    <header id="home">
+        <nav>
+            <div class="row">
+                <a href="#home">
+                    <img src="img/logo.png" alt="cuda" class="logo">
+                </a>
+                <ul class="main-nav">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#service">service</a></li>
+                    <li><a href="#team">team</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#testimonial">testimonial</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#home">home</a>
+                            <a onclick="closeNav()" href="#service">service</a>
+                            <a onclick="closeNav()" href="#team">team</a>
+                            <a onclick="closeNav()" href="#skill">skill</a>
+                            <a onclick="closeNav()" href="#portfolio">portfolio</a>
+                            <a onclick="closeNav()" href="#testimonial">testimonial</a>
+                            <a onclick="closeNav()" href="#contact">contact</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
-
-        <div class="container">
-            <p>Hi there! we are the  new kids on the block and we bulid awesome websites and mobile apps</p>
-
-            <button class="btn" type="button">WORK WITH US!</button>
+        <div class="row">
+            <div class="hero-text-box">
+                <h1>Hi there! we are the new kids on the block and we bulid awesome websites and mobile apps.</h1>
+                <a href="#contact" class="btn btn-hero">work with us!</a>
+            </div>
         </div>
+    </header>
 
+   <section class="service-section js--services-section" id="service">
+       <div class="row">
+           <h2>SERVICES WE PROVIDE</h2>
+           <p class="little-description">We are working with both individuals and bussiness from all over the glove to create awesome websites and applications.</p>
+       </div>
+
+       <div class="row">
+           <div class="col span_1_of_4 box">
+                <img src="img/flag.png" alt="flag" class="service-icon">
+                <h3>BRANDING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum vero veniam</p>
+           </div>
+            <div class="col span_1_of_4 box">
+                <img src="img/crayon.png" alt="pencil" class="service-icon">
+                <h3>DESIGN</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum vero veniam</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="img/gears.png" alt="setting" class="service-icon">
+                <h3>DEVELOPMENT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum vero veniam</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="img/rocket.png" alt="rocket" class="service-icon">
+                <h3>ROCKET SCIENCE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum vero veniam</p>
+            </div>
+       </div>
+        
+   </section>
+
+<section class="team-section" id="team">
+    <div class="row">
+        <h2>MEET OUR BEAUTIFUL TEAM</h2>
+        <p class="little-description">We are a small team of designers and developers, who help brands with big ideas.</p>
     </div>
 
-    <div class="second_section">
-        <div class="container">
-            <h2>SERVICES WE PROVIDE</h2>
-            <img src="img/line.png" alt="line">
-            <P>We are working with both individuals and bussiness from all over the glove to create awesome websites and applications.</P>
+    <div class="row">
+        <div class="col span_1_of_4 box">
+            <img src="img/1.jpg" alt="ANNE HATHAWAY" class="team-member">
+            <h3>ANNE HATHAWAY</h3>
+            <span class="role">CEO / Marketing Guru</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img src="img/2.jpg" alt="ANNE HATHAWAY" class="team-member">
+            <h3>ANNE HATHAWAY</h3>
+            <span class="role">CEO / Marketing Guru</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img src="img/3.jpg" alt="ANNE HATHAWAY" class="team-member">
+            <h3>ANNE HATHAWAY</h3>
+            <span class="role">CEO / Marketing Guru</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img src="img/4.jpg" alt="ANNE HATHAWAY" class="team-member">
+            <h3>ANNE HATHAWAY</h3>
+            <span class="role">CEO / Marketing Guru</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
+</section>
+
+
+<section class="skill-section" id="skill">
+    <div class="row">
+        <h2>we got skills</h2>
+        <p class="little-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_4 box">
+            <svg class="radial-progress web" data-percentage="95" viewBox="0 0 80 80">
+                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">95%</text>
+            </svg>
+            <h3>web design</h3>
+        </div>
+        <div class="col span_1_of_4 box">
+            <svg class="radial-progress html" data-percentage="75" viewBox="0 0 80 80">
+                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+            </svg>
+            
+            <h3>html / css</h3>
+        </div>
+        <div class="col span_1_of_4 box">
+            <svg class="radial-progress graphics" data-percentage="70" viewBox="0 0 80 80">
+                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+            </svg>
+            
+            <h3>graphics design</h3>
+        </div>
+        <div class="col span_1_of_4 box">
+            <svg class="radial-progress ui" data-percentage="85" viewBox="0 0 80 80">
+                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+            </svg>
+            
+            <h3>ui / ux</h3>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio-section" id="portfolio">
+    <div class="row">
+        <h2>our portfolio</h2>
+        <p class="little-description">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+    </div>
+    <div class="row">
+        <div class="portfolio-filter">
+            <button type="button"  data-filter="all">ALL</button>
+            <button type="button"  data-filter=".web">WEB</button>
+            <button type="button"  data-filter=".apps">APPS</button>
+            <button type="button"  data-filter=".icons">ICONS</button>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="col span_1_of_2 mix web apps box">
+            <img src="img/portfolio1.png" alt="Isometric Perspective Mock-Up" class="portfolio-image">
+            <h4>Isometric Perspective Mock-Up</h4>
+        </div>
+        <div class="col span_1_of_2 mix web icons box">
+            <img src="img/portfolio2.png" alt="Isometric Perspective Mock-Up" class="portfolio-image">
+            <h4>Isometric Perspective Mock-Up</h4>
+        </div>
+        <div class="col span_1_of_2 mix apps box">
+            <img src="img/portfolio3.png" alt="Isometric Perspective Mock-Up" class="portfolio-image">
+            <h4>Isometric Perspective Mock-Up</h4>
+        </div>
+        <div class="col span_1_of_2 mix icons box">
+            <img src="img/portfolio4.png" alt="Isometric Perspective Mock-Up" class="portfolio-image">
+            <h4>Isometric Perspective Mock-Up</h4>
+        </div>
+    </div>
+    <div class="row">
+        <button type="button" class="btn btn-load-more">Load More Projects</button>
+    </div>
+    
+</section>
+
+
+<section class="testimonial-section" id="testimonial">
+    <div class="row">
+        <h2>what people say about us</h2>
+        <p class="little-description">Our client love us!</p>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_2">
+            <div class="client-photo">
+                <img src="img/1.jpg" alt="Chanel Iman">
+            </div>
+            <div class="client-review">
+                <p>"Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                <h3>Chanel Iman</h3>
+                <span class="role">CEO of Pinterest</span>
+            </div>
+        </div>
+        <div class="col span_1_of_2">
+            <div class="client-photo">
+                <img src="img/2.jpg" alt="Chanel Iman">
+            </div>
+            <div class="client-review">
+                <p>"Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl
+                    scelerisque.”</p>
+                <h3>Chanel Iman</h3>
+                <span class="role">CEO of Pinterest</span>
+            </div>
+        </div>
+        <div class="col span_1_of_2">
+            <div class="client-photo">
+                <img src="img/3.jpg" alt="Chanel Iman">
+            </div>
+            <div class="client-review">
+                <p>"Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl
+                    scelerisque.”</p>
+                <h3>Chanel Iman</h3>
+                <span class="role">CEO of Pinterest</span>
+            </div>
+        </div>
+        <div class="col span_1_of_2">
+            <div class="client-photo">
+                <img src="img/4.jpg" alt="Chanel Iman">
+            </div>
+            <div class="client-review">
+                <p>"Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl
+                    scelerisque.”</p>
+                <h3>Chanel Iman</h3>
+                <span class="role">CEO of Pinterest</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-section" id="contact">
+    <div class="row">
+        <h2>get in touch</h2>
+        <p class="little-description">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+    </div>
+    <div class="row">
+        <form action="#" method="post">
             <div class="row">
-                <div class="col-sm">
-                    <img src="img/flag.png" alt="flag">
-                    <h1>BRANDING</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum vero veniam</p>
+                <div class="col span_1_of_2">
+                    <input type="text" id="Nmae" placeholder="Your Names*" required>
                 </div>
-                <div class="col-sm">
-                    <img src="img/pencil.png" alt="pencil">
-                    <h1>DESIGN</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum vero veniam</p>
-                </div>
-                <div class="col-sm">
-                    <img src="img/setting.png" alt="setting">
-                    <h1>DEVELOPMENT</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum vero veniam</p>
-                </div>
-                <div class="col-sm">
-                    <img src="img/rocket.png" alt="rocket">
-                    <h1>ROCKET SCIENCE</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum vero veniam</p>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-
-    <div class="third_section">
-        <div class="container">
-
-            <h1>Meet Our beautiful team</h1>
-            <img src="img/line2.png" alt="line">
-            <p>We are a small team of designers and developers, who help brand with big ideas</p>
-            <div class="row">
-                <div class="col-sm">
-                    <div class="circle"></div>
-                    <h5>Anne Hathaway</h5>
-                    <p class="position">CEO / Marketing Guru</p>
-                    <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam, eveniet aut dignissimos doloribus aliquam ipsam quisquam quaerat.</p>
-                    <ul>
-                        <li><i class="fab fa-facebook-f"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fab fa-linkedin-in"></i></li>
-                        <li><i class="fas fa-envelope"></i></li>
-                    </ul>
-                </div>
-                <div class="col-sm">
-                    <div class="circle"></div>
-                    <h5>kate upton</h5>
-                    <p class="position">Creative Director</p>
-                    <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam, eveniet aut dignissimos doloribus aliquam ipsam
-                        quisquam quaerat.</p>
-                    <ul>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fab fa-linkedin-in"></i></li>
-                        <li><i class="fas fa-envelope"></i></li>
-                    </ul>
-                </div>
-                <div class="col-sm">
-                    <div class="circle"></div>
-                    <h5>Olivai Wilde</h5>
-                    <p class="position">Lead Designer</p>
-                    <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam, eveniet aut dignissimos doloribus aliquam ipsam
-                        quisquam quaerat.</p>
-                    <ul>
-                        <li><i class="fab fa-facebook-f"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fab fa-linkedin-in"></i></li>
-                        <li><i class="fas fa-envelope"></i></li>
-                    </ul>
-                </div>
-                <div class="col-sm">
-                    <div class="circle"></div>
-                    <h5>Ashley greene</h5>
-                    <p class="position">SEO Developer</p>
-                    <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam, eveniet aut dignissimos doloribus aliquam ipsam
-                        quisquam quaerat.</p>
-                    <ul>
-                        <li><i class="fab fa-facebook-f"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fas fa-envelope"></i></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="fourth_section">
-        <div class="container">
-            <h1>we got skills</h1>
-            <img src="img/line3.png" alt="line">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sed, sint reiciendis dolore a dolor</p>
-
-            <div class="row">
-                <div class="col-sm">
-                    <svg class="radial-progress web" data-percentage="95" viewBox="0 0 80 80">
-                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">95%</text>
-                    </svg>
-                   
-
-                    <h1>web design</h1>
-                </div>
-                <div class="col-sm">
-                    <svg class="radial-progress html" data-percentage="75" viewBox="0 0 80 80">
-                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
-                    </svg>
-
-                    <h1>html / css</h1>
-                </div>
-                <div class="col-sm">
-                    <svg class="radial-progress graphics" data-percentage="70" viewBox="0 0 80 80">
-                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
-                    </svg>
-
-                    <h1>graphics design</h1>
-                </div>
-                <div class="col-sm">
-                    <svg class="radial-progress ui" data-percentage="85" viewBox="0 0 80 80">
-                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
-                    </svg>
-
-                    <h1>ui / ux</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="fifth_section">
-        <div class="container">
-            <h1>our portfolio</h1>
-            <img src="img/line4.png" alt="line">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta sapiente iste porro incidunt unde.</p>
-
-            <div class="catogories">
-                    <button type="button" class="btn active" id="all">ALL</button>
-                    <button type="button" class="btn" id="web">WEB</button>
-                    <button type="button" class="btn" id="apps">APPS</button>
-                    <button type="button" class="btn" id="icons">ICONS</button>
-            </div>
-            <div class="row">
-                <div class="col-sm-6" id="one">
-                    <img src="img/work1.png" alt="work1">
-                    <p>Lorem ipsum dolor sit amet consectetue.</p>
-                </div>
-                <div class="col-sm-6" id="two">
-                    <img src="img/work2.png" alt="work2">
-                    <p>Lorem ipsum dolor sit amet consectetue.</p>
-                </div>
-                <div class="col-sm-6" id="three">
-                    <img src="img/work3.png" alt="work3">
-                    <p>Lorem ipsum dolor sit amet consectetue.</p>
-                </div>
-                <div class="col-sm-6" id="four">
-                    <img src="img/work4.png" alt="work4">
-                    <p>Lorem ipsum dolor sit amet consectetue.</p>
-                </div>
-            </div>
-
-            <button type="button" class="btn" id="load">Load More Projects</button>
-
-        </div>
-    </div>
-
-    <div class="sixth-section">
-        <div class="container">
-            <h3>what people say about us</h3>
-            <img src="img/line6.png" alt="line">
-            <p class="status">Our client love us!</p>
-            <div class="row">
-                <div class="col">
-                    <div class="media">
-                        <div class="circle mr-3"></div>
-                        <div class="media-body">
-                            <div class="message">
-                                <p class="details">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam,
-                                    eveniet aut dignissimos
-                                    doloribus
-                                    aliquam ipsam quisquam quaerat."</p>
-                                <p class="name">Anne Hathaway</p>
-                                <p class="position">CEO / Marketing Guru</p>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="media">
-                        <div class="circle mr-3"></div>
-                        <div class="media-body">
-                            <div class="message">
-                                <p class="details">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam,
-                                    eveniet aut
-                                    dignissimos
-                                    doloribus
-                                    aliquam ipsam quisquam quaerat."</p>
-                                <p class="name">Anne Hathaway</p>
-                                <p class="position">CEO / Marketing Guru</p>
-                            </div>
-                        </div>
-    
-                    </div>
+                <div class="col span_1_of_2">
+                    <input type="email" id="Email" placeholder="Your Email*" required>
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    <div class="media">
-                        <div class="circle mr-3"></div>
-                        <div class="media-body">
-                            <div class="message">
-                                <p class="details">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam,
-                                    eveniet aut
-                                    dignissimos
-                                    doloribus
-                                    aliquam ipsam quisquam quaerat."</p>
-                                <p class="name">Anne Hathaway</p>
-                                <p class="position">CEO / Marketing Guru</p>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="media">
-                        <div class="circle mr-3"></div>
-                        <div class="media-body">
-                            <div class="message">
-                                <p class="details">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam,
-                                    eveniet aut
-                                    dignissimos
-                                    doloribus
-                                    aliquam ipsam quisquam quaerat."</p>
-                                <p class="name">Anne Hathaway</p>
-                                <p class="position">CEO / Marketing Guru</p>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
+                <textarea id="Message"  placeholder="Your Message*" required></textarea>
             </div>
-        </div>
+            <div class="row">
+                <input class="btn btn-submit" type="submit" value="SEND MESSAGE">
+            </div>
+            
+        </form>
+
     </div>
+</section>
     
-    <div class="seventh-section">
     
-        <div class="container">
-            <h3>get in touch</h3>
-            <img src="img/line7.png" alt="line">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    
-            <form action="">
-                <div class="form-row">
-                    <div class="form-group col-sm">
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Your Names*">
-                    </div>
-                    <div class="form-group col-sm">
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Your Email*">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" id="Textarea" placeholder="Your Message*"></textarea>
-                </div>
-                <button class="btn" type="submit">send Message</button>
-            </form>
-    
+    <footer class="footer-section">
+        <div class="row">
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Google+</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Behance</a></li>
+                <li><a href="#">Dribble</a></li>
+                <li><a href="#">GitHub</a></li>
+            </ul>
         </div>
-    </div>
-    
-    <footer>
-        <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Google+</li>
-            <li>LinkedIn</li>
-            <li>Behance</li>
-            <li>Dribble</li>
-            <li>GitHub</li>
-        </ul>
+        
     </footer>
 
     <!-- Optional JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/animated-circle.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="resources/js/app.js"></script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+   <!--  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-        <script src="js/app.js"></script>
+        crossorigin="anonymous"></script> -->
+        <!--  -->
 </body>
 
 </html>
