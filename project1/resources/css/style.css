@@ -31,13 +31,6 @@ h1{
     outline: 0;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-    height: 0;
-    visibility: hidden;
-}
 
 .row{
     max-width: 114rem;
@@ -88,7 +81,7 @@ h4{
 
 .box p{
     font-size: 1.6rem;
-    font-weight: 300rem;
+    font-weight: 300;
     margin-top: 2rem;
     color: #ffffff;
 }
@@ -233,10 +226,7 @@ header{
   left: 0;
   background-color: rgba(0,0,0,0.9);
   z-index: 1;
-     overflow-x: hidden;
-     /*
-  -webkit-transition: .5s;
-  -o-transition: .5s; */
+  overflow-x: hidden;
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
@@ -484,7 +474,7 @@ svg.radial-progress text {
     border: 0;
     border-radius: .5rem;
     text-transform: uppercase;
-    margin: 0 .5rem;
+    margin: .5rem;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
