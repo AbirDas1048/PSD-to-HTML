@@ -1,0 +1,271 @@
+
+@media only screen and (max-width: 1158px){
+
+    #home_page #partnership .text .container{
+        padding: 2rem;
+        
+    }
+    #capabilities_page #capabilities_construction .container .row .col-md h3{
+        margin-left: 1rem;
+    }
+
+    #capabilities_page #capabilities_management_and_procurement .row .col-sm:first-child .heading{
+        margin-left: 7rem;
+    }
+
+    #capabilities_page #capabilities_management_and_procurement .row .col-sm:first-child .text{
+        margin-left: 7rem;
+    }
+}
+
+@media only screen and (max-width: 1076px){
+    .nav .row .col-lg-7 .row .col-xl-6{
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .nav .row .col-lg-7 .row .second_col_xl .text{
+        margin-top: 1rem;
+    }
+
+    #capabilities_page #capabilities_management_and_procurement .row .col-sm:last-child .text h5{
+        margin-right: 10rem;
+    }
+
+    #capabilities_page #capabilities_management_and_procurement .row .col-sm:last-child .text p{
+        margin-right: 10rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 1004px){
+    #capabilities_page #capabilities_performance .container .row .col-md .heading h3{
+        margin-right: .4rem;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .nav .row .col-lg-7 .row .col-xl-6{
+        text-align: center;
+    }
+
+    .nav .row .col-lg-7 .row .col-xl-6 .text{
+        margin-top: 2.3rem;
+    }
+
+    #home_page #header .container h1{
+        width: 100%;
+        
+    }
+
+    #home_page #performance .container .row .col-lg-8, 
+    #home_page #performance .container .row .col-lg-4{
+       text-align: center;
+    }
+
+    #home_page #performance .container .row .col-lg-8 h2{
+        width: 100%;
+    }
+
+    #home_page #performance .container .row .col-lg-8 .first_p{
+        width: 100%;
+    }
+
+    #home_page #performance .container .row .col-lg-8 .last_p{
+        width: 100%;
+    }
+
+
+    #capabilities_page #capabilities_service .container .row .col-sm i{
+        right: 30%;
+        
+    }
+
+
+}
+
+
+@media only screen and (max-width: 933px){
+   #home_page #partnership .partnership_caurosel .col-sm:last-child .text p{
+        padding-top: 1.8rem;
+    }
+}
+@media only screen and (max-width: 915px){
+
+
+    #capabilities_page #capabilities_performance .container .row .col-md .heading h5{
+        margin-left: 1rem;
+        
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 865px){
+
+    
+
+    #capabilities_page #capabilities_performance .container .row .col-md .heading{
+        height: 10rem;
+    }
+    
+    #capabilities_page #capabilities_performance .container .row .col-md .heading h5{
+        width: 0;
+    }
+
+    #capabilities_page #capabilities_techaccess .container .text p{
+        margin: 2.6rem 14rem 0;
+        
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    #capabilities_page #capabilities_performance .container .row .col-md{
+        margin: 2rem 2rem;
+    }
+
+    #capabilities_page #capabilities_performance .container .row .col-md .heading{
+        height: 7rem;
+    }
+
+    #capabilities_page #capabilities_performance .container .row .col-md .heading h5{
+        margin-left: 2.7rem;
+        width: 20.6rem;
+    }
+
+    #capabilities_page #capabilities_performance .container .row .col-md .heading h3{
+        margin-right: 3.4rem;
+    }
+
+    #contact .footer .container .row .first_col a{
+        display: inline-block;
+    }
+
+    #contact .footer .container .row .col-md{
+        text-align: center;
+    }
+
+    #contact .footer .container .row .first_col  p, #contact .footer .container .row .first_col i{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 735px){
+
+   #contact .footer{
+    padding-top: 20rem;
+}
+}
+
+@media only screen and (max-width: 655px){
+
+    #home_page #service .container .row .col-sm:first-child .service_name{
+        padding: .2rem 0;
+    }
+
+
+    #contact .form .container .row .first_col{
+        text-align: center;
+    }
+
+    #contact .form .container .row .first_col .normal_contact{
+        margin: 1.5rem auto;
+    }
+
+    #contact .footer .container .row .col-sm-6{
+        margin-top: 5rem;
+    }
+}
+
+@media only screen and (max-width: 581px){
+    #contact .footer .container .row{
+        margin-top: 10rem;
+    }
+}
+@media only screen and (max-width: 576px){
+
+    html{
+        font-size: 50%;
+    }
+
+    #home_page #service .container .row .col-sm{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #home_page #service .container .row .col-sm:first-child .service_name{
+        padding: 2.4rem 0;
+    }
+
+    
+
+    #home_page #partnership .partnership_caurosel .col-sm:last-child .text p{
+        padding-top: 2.8rem;
+    }
+
+    #capabilities_page #capabilities_performance .container .first_p{
+        margin: 2rem 5rem;
+    }
+
+    #capabilities_page #capabilities_performance .container .second_p{
+        margin: 2rem 5rem;
+    }
+
+    #capabilities_page #capabilities_performance .container .third_p{
+        margin: 2rem 5rem;
+    }
+
+    
+    #capabilities_page #capabilities_management_and_procurement .row .col-sm:first-child .heading{
+    margin-left: 3.9rem;
+    }
+
+    #capabilities_page #capabilities_management_and_procurement .row .col-sm:first-child .heading h3{
+        margin-left: 2.4rem;
+    }
+
+    #capabilities_page #capabilities_management_and_procurement .row .col-sm:first-child .text{
+    margin-left: 3.9rem;
+    }
+
+    #capabilities_page #capabilities_energy_and_power .container .first_p{
+        margin: 0 4.5rem;
+        margin-top: 3.5rem;
+    }
+
+    #capabilities_page #capabilities_techaccess .container .text p{
+        margin: 2.6rem 5rem 0;
+        
+    }
+
+    #capabilities_page #capabilities_staff .container .first_p{
+        margin: 1.6rem 5rem;
+    }
+
+    #home_page #service .container .service_text{
+        margin-top: 2rem;
+        
+    }
+
+
+    footer .container .row .col-sm-6 p{
+        text-align: center;
+        margin: .5rem 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 490px){
+    html{
+        font-size: 40%;
+    }
+    #home_page #legal_and_consultancy .container .row{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,2105 @@
+
+@import url(bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@font-face{
+    src: url(font/nunito-sans.regular.ttf);
+    font-family: 'nunito-sans';
+}
+@font-face{
+    src: url(font/nunito-sans.black.ttf);
+    font-family: 'nunito-sans-black';
+}
+@font-face{
+    src: url(font/nunito-sans.bold.ttf);
+    font-family: 'nunito-sans-bold';
+}
+@font-face{
+    src: url(font/nunito-sans.semibold.ttf);
+    font-family: 'nunito-sans-semibold';
+}
+@font-face{
+    src: url(font/nunito-sans.extrabold.ttf);
+    font-family: 'nunito-sans-extrabold';
+}
+
+@font-face{
+    src: url(font/GothamMedium.ttf);
+    font-family: 'gotham-medium';
+}
+
+@font-face{
+    src: url(font/GothamBook.ttf);
+    font-family: 'gotham-book';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    line-height: 1;
+    font-size: 1.6rem;
+}
+ul li{
+   list-style-type: none;
+}
+
+/* <----- Start of home page css -----> */
+
+.container{
+    max-width: 119.7rem;
+}
+
+
+section {
+    overflow: hidden;
+}
+
+.nav .row{
+    width: 100%;
+     margin: 0;
+}
+
+.nav .row .col-lg-5{
+    background-image: url("../../img/logo-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0;
+    text-align: center;
+}
+.nav .row .col-lg-5 a{
+    display: inline-block;
+    margin: 1.6rem 0;
+}
+
+.nav .row .col-lg-7{
+    padding: 0;
+    background-color: #002e45;
+}
+
+.nav .row .col-lg-7 .row .col-xl-6{
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+.nav .row .col-lg-7 .row .col-xl-6 .icon,
+.nav .row .col-lg-7 .row .col-xl-6 .text{
+    display: inline-block;
+    
+}
+
+.nav .row .col-lg-7 .row .col-xl-6 .icon i{
+    position: absolute;
+    top: 2.3rem;
+    height: 4rem;
+    width: 4rem;
+    border: .3rem solid #ffffff;
+    border-radius: 50%;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.nav .row .col-lg-7 .row .col-xl-6 .text{
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 2.3rem;
+}
+
+.nav .row .col-lg-7 .row .col-xl-6 .text .first_p{
+    color: #ffffff;
+    font-family: 'nunito-sans-bold';
+    font-size: 1.6rem;
+    
+}
+
+.nav .row .col-lg-7 .row .col-xl-6 .text .second_p{
+    color: #6fbcff;
+    font-family: 'nunito-sans';
+    font-size: 1.6rem;
+    margin-top: .8rem;
+}
+.navbar{
+    padding: 0;
+}
+
+
+.navbar-nav{
+    margin: auto;
+}
+
+#navbarNavAltMarkup .navbar-nav a{
+    font-family: 'nunito-sans-extrabold';
+    /* font-weight: 700; */
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #242424;
+    padding: 2rem 0;
+    width: 15rem;
+    text-align: center;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+#navbarNavAltMarkup .navbar-nav .active{
+    border-bottom: .4rem solid #0b60a9;
+    color: #0b60a9;
+}
+
+#navbarNavAltMarkup .navbar-nav a:hover{
+    border-bottom: .4rem solid #0b60a9;
+}
+
+.navbar button{
+    background-color: #adc1eb;
+}
+.navbar button span{
+    font-size: 3rem;
+}
+
+#home_page #header{
+    background-image: url('../../img/home-header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#home_page #header .container h1{
+    font-family: 'nunito-sans-black';
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 16.4rem;
+    color: #272727;
+    width: 94.8rem;
+    
+}
+
+#home_page #header .container h1>span{
+    padding: 0 2rem;
+    background-color:rgba(214, 214, 211, .8);
+    line-height: 1.5;
+}
+
+#home_page #header .container .heading_paragraph{
+    max-width: 85rem;
+    margin: 0 auto;
+    margin-top: .3rem;
+    background-color:rgba(214, 214, 211, .8);
+    
+}
+
+#home_page #header .container .heading_paragraph p{
+    
+    font-family: 'nunito-sans-semibold';
+    font-weight: 800;
+    font-size: 1.9rem;
+    padding: 2.5rem 2rem 5.8rem 2rem ;
+} 
+
+#home_page #header .container .heading_paragraph a:link,
+#home_page #header .container .heading_paragraph a:visited{
+    background-color: #ff7623;
+    color: #ffffff;
+    text-decoration: none;
+    padding: .2rem 3rem;
+    border: 1rem solid transparent;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 1.6rem;
+}
+
+#home_page #header .container .row{
+    margin: 0 2rem;
+    margin-top: 18rem;
+}
+
+#home_page #header .container .row .col-sm-2half{
+    border-top: .4rem solid #0b60a9;
+    background-color:rgba(242, 242, 242, 0.9);
+    height: 18.5rem;
+    width: 27.5rem;
+    margin: 1rem auto;
+    margin-bottom: 0;
+    text-align: left;
+    padding: 5rem 4.5rem;
+}
+
+#home_page #header .container .row .col-sm-2half i{
+    color:  #0b60a9;
+    font-size: 3rem;
+}
+
+#home_page #header .container .row .col-sm-2half p{
+    margin-top: 1.5rem;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2.1rem;
+    color: #ff7623;
+}
+#home_page #header .container .row .col-sm-2half:hover,
+#home_page #header .container .row .col-sm-2half:hover i,
+#home_page #header .container .row .col-sm-2half:hover p{
+    background-color: #0b60a9;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+#home_page .home_layer{
+    background-image: url("../../img/home_layer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+#home_page #performance .container .row{
+   margin: 0 2rem;
+   margin-top: 9rem
+}
+#home_page #performance .container .row .col-lg-8, 
+#home_page #performance .container .row .col-lg-4{
+    padding: 0;
+    margin: 1rem auto;
+}
+
+
+#home_page #performance .container .row .col-lg-8 h2{
+    
+    font-family: 'nunito-sans-extrabold';
+    font-size: 3.8rem;
+    color: #1b2022;
+}
+#home_page #performance .container .row .col-lg-8 h2>span{
+    padding: 0 1rem;
+    background-color:#ffffff;
+    line-height: 1.6;
+    -webkit-box-shadow: 1rem 1rem 3rem #dddddd;
+            box-shadow: 1rem 1rem 3rem #dddddd;
+}
+
+#home_page #performance .container .row .col-lg-8 h2 .span2{
+    padding-right: 4rem;
+}
+
+#home_page #performance .container .row .col-lg-8 h2 .span3{
+    padding: 0;
+    color: #0b60a9;
+    padding-right: 1.8rem;
+}
+
+#home_page #performance .container .row .col-lg-8 .first_p{
+    font-family: 'nunito-sans-bold';
+    color: #999c9d;
+    font-size: 1.8rem;
+    margin-top: 3.5rem;
+    width: 50rem;
+    line-height: 1.2;
+}
+
+#home_page #performance .container .row .col-lg-8 h4{
+    font-family: 'nunito-sans-extrabold';
+    color: #1d404e;
+    font-size: 2.1rem;
+    margin-top: 3.5rem;
+}
+
+#home_page #performance .container .row .col-lg-8 ul li{
+    display: inline-block;
+    margin-top: 1rem;
+    color: #ff7623;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 1.8rem;
+    padding: .5rem 1rem;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1rem 1rem 1rem #dddddd;
+            box-shadow: 1rem 1rem 1rem #dddddd;
+}
+
+#home_page #performance .container .row .col-lg-8 .last_p{
+    font-family: 'nunito-sans';
+    font-size: 1.6rem;
+    color: #707070;
+    margin-top: 3rem;
+    width: 65rem;
+    line-height: 1.6;
+}
+
+#home_page #performance .container .row .col-lg-8 a:link,
+#home_page #performance .container .row .col-lg-8 a:visited{
+    display: inline-block;
+    margin-top: 2rem;
+    background-color: #002e45;
+    text-decoration: none;
+    font-family: 'nunito-sans-extrabold';
+    padding: 2.7rem 5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    
+}
+
+#home_page #performance .container .row .col-lg-4 img{
+    width: 100%;
+}
+
+
+#home_page #service{
+    margin-top: 11.5rem;
+    position: relative;
+    z-index: 0;
+}
+#home_page #service .logistic_service{
+    position: absolute;
+    background-image: url(../../img/home-service-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 58.7rem;
+    z-index: -1;
+    
+}
+
+#home_page #service .container .service_text{
+    margin: 0 auto;
+    margin-top: 16rem;
+    text-align: center;
+    width: 82%;
+}
+
+#home_page #service .container .service_text a:link,
+#home_page #service .container .service_text a:visited{
+    
+    background-color: #ff7623;
+    color: #ffffff;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 1.6rem;
+}
+
+#home_page #service .container .service_text p{
+    color: #ffffff;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 3.8rem;
+    margin-top: 4rem;
+    
+}
+
+#home_page #service .container .row{
+    margin: 0 2rem;
+    margin-top: 10.5rem;
+    text-align: center;
+}
+
+
+
+#home_page #service .container .row .col-sm{
+    border: .2rem solid #01b0e8;
+    width: 35rem;
+    color: #070707;
+    padding: 0;
+    margin: 1rem auto;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+#home_page #service .container .row .col-sm .service_name{
+    background-color: #002e45;
+    color: #ffffff;
+    padding: 3.6rem 0;
+    height: 9.4rem;
+}
+
+#home_page #service .container .row .col-sm:first-child .service_name{
+    padding: 2.4rem 0;
+}
+
+#home_page #service .container .row .col-sm .service_name h5{
+    
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2rem;
+}
+
+#home_page #service .container .row .col-sm ul{
+    padding-top: 3rem;
+    background-color: #ffffff;
+}
+
+#home_page #service .container .row .col-sm:last-child ul{
+    padding-top: 5rem;
+}
+#home_page #service .container .row .col-sm ul li{
+    margin-bottom: 2.1rem;
+    font-family: 'nunito-sans-semibold';
+    font-size: 1.7rem;
+}
+
+#home_page #service .container .row .col-sm ul li a:link,
+#home_page #service .container .row .col-sm ul li a:visited
+{
+    text-decoration: underline;
+    color: #070707;
+}
+
+#home_page #partnership{
+    margin-top: 10rem;
+}
+
+#home_page #partnership .text{
+    background-color: #0b60a9;
+    color: #ffffff;
+}
+
+#home_page #partnership .text .container{
+    padding: 4.5rem 4.2rem 4rem;
+    
+}
+
+#home_page #partnership .text .container .row{
+    margin: 0 2rem;
+}
+
+#home_page #partnership .text .container .row .col-sm-4, 
+#home_page #partnership .text .container .row .col-sm-8{
+    margin-top: 1rem;
+}
+#home_page #partnership .text .container .row .col-sm-4 h3{
+   font-family: 'nunito-sans-extrabold';
+   font-size: 4.1rem;
+}
+
+#home_page #partnership .text .container .row .col-sm-4 p{
+   font-family: 'nunito-sans-bold';
+    font-size: 1.9rem;
+    margin: 0;
+}
+
+#home_page #partnership .text .container .row .col-sm-8 p{
+    margin-top: 1.5rem;
+    font-family: 'nunito-sans';
+    font-size: 2.2rem;
+}
+
+#home_page #partnership .partnership_caurosel{
+    text-align: center;
+}
+#home_page #partnership .partnership_caurosel .row{
+    margin: 0 2rem;
+}
+
+#home_page #partnership .partnership_caurosel .col-md-4{
+    width: 37rem;
+    margin: 1rem auto;
+}
+
+
+#home_page #partnership .partnership_caurosel .col-md-4 .text{
+    height: 7.8rem;
+    background-color: #ffffff;
+    color: #202020;
+}
+
+#home_page #partnership .partnership_caurosel .col-md-4 .text p{
+    font-family: 'nunito-sans-bold';
+    font-size: 1.9rem;
+    padding-top: 1.8rem;
+}
+
+
+#home_page #partnership .partnership_caurosel .col-md-4 .text:hover{
+    background-color: #002e45;
+    color: #ffffff;
+}
+
+#home_page #legal_and_consultancy{
+    margin-top: 10rem;
+}
+
+#home_page #legal_and_consultancy .container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#home_page #legal_and_consultancy .container h3{
+    font-family: 'nunito-sans-bold';
+    font-size: 3.6rem;
+}
+
+#home_page #legal_and_consultancy .container .row{
+    margin: 1.8rem auto;
+    width: 50rem;
+}
+
+
+
+#home_page #legal_and_consultancy .container .row .col-sm{
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+#home_page #legal_and_consultancy .container .row .col-sm i{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    padding: 3.5rem 3.5rem;
+    background-color: #002e45;
+    color: #ffffff;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#home_page #legal_and_consultancy .container .row .col-sm i:hover{
+    background-color: #0b60a9;
+}
+
+#home_page #legal_and_consultancy .container .row .col-sm p{
+    font-family: 'nunito-sans-bold';
+    font-size: 1.8rem;
+    color: #404040;
+}
+
+#home_page #legal_and_consultancy .container h5{
+    
+    font-family: 'nunito-sans-bold';
+    font-size: 2.2rem;
+}
+
+#home_page #legal_and_consultancy .container a:link,
+#home_page #legal_and_consultancy .container a:visited{
+    display: inline-block;
+    background-color: #0b60a9;
+    color: #ffffff;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2.5rem;
+    padding: 1.7rem 2.9rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+#home_page #capibilities{
+    
+    background: -o-linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url(../../img/home-capibilities-bg.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .6)), to(rgba(255, 255, 255, .6))), url(../../img/home-capibilities-bg.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url(../../img/home-capibilities-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+#home_page #capibilities .container .row{
+    margin: 12rem 1rem;
+}
+
+#home_page #capibilities .container .row .col-sm{
+    margin: 1rem auto;
+    width: 38.3rem;
+}
+
+#home_page #capibilities .container .row .col-sm h2{
+    font-family: 'Lato';
+    font-size: 3.4rem;
+    margin-top: 2rem;
+}
+
+#home_page #capibilities .container .row .col-sm h2::after {
+    content: "";
+    display: block;
+    height: .4rem;
+    background: #0b60a9;
+    width: 6rem;
+    margin-top: 1rem;
+    border: .1rem solid transparent;
+    border-radius: 5rem;
+}
+
+
+#home_page #capibilities .container .row .col-sm h5{
+    font-family: 'nunito-sans-bold';
+    font-size: 2rem;
+    margin-top: 3.5rem;
+    /* text-align: justify; */
+    /* width: 30rem; */
+}
+
+#home_page #capibilities .container .row .col-sm p{
+    font-family: 'nunito-sans';
+    font-size: 1.8rem;
+    margin-top: 3.5rem;
+    width: 29rem;
+}
+
+#home_page #capibilities .container .row .col-sm a:link,
+#home_page #capibilities .container .row .col-sm a:visited{
+    display: inline-block;
+    margin-top: 3.3rem;
+    padding: 1.7rem 4.2rem 1.8rem 3.5rem;
+    background-color: #002e45;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#home_page #capibilities .container .row .col-sm img{
+    width: 100%;
+    
+}
+
+#home_page #capibilities .container .row .col-sm .text{
+    background-color: #ffffff;
+    padding: 2.5rem 0 2.5rem 2.8rem;
+    border-left: .5rem solid #0b60a9;
+}
+
+#home_page #capibilities .container .row .col-sm .text p{
+    color: #0b60a9;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+
+#home_page #capibilities .container .row .col-sm .text h5{
+    margin-top: 1.2rem;
+    color: #0f110e;
+    font-family: 'nunito-sans-bold';
+    font-size: 1.9rem;
+    text-decoration: underline;
+}
+
+
+
+
+/* <----- End of home page css -----> */
+
+/* <----- Start of leadership page css -----> */
+
+#leadership_page #leadership_hero{
+    background-image: url('../../img/leadership_hero.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#leadership_page #leadership_hero .container{
+    text-align: center;
+    padding: 16.5rem 0;
+}
+
+#leadership_page #leadership_hero .container i{
+    width: 9.1rem;
+    height: 9.1rem;
+    border-radius: 50%;
+    padding: 3.5rem 3.2rem;
+    background-color: #ff7623;
+    color: #ffffff;
+    font-size: 2.4rem;
+}
+
+#leadership_page #leadership_hero .container h2{
+    font-family: 'nunito-sans-extrabold';
+    font-size: 6rem;
+    color: #013a56;
+    margin-top: 1.2rem;
+}
+
+#leadership_page #leader_speech{
+    background-image: url('../../img/leadership_leader_tie.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20.5rem 0;
+}
+
+#leadership_page #leader_speech .container .row{
+    margin: 10rem 2rem 0;
+}
+
+#leadership_page #leader_speech .container .row .col-md-5,
+#leadership_page #leader_speech .container .row .col-md-7{
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+/* #leadership_page #leader_speech .container .row .col-sm-5 img{
+    width: 100%;
+} */
+
+#leadership_page #leader_speech .container .row .col-md-7 .leader_name{
+    font-family: 'nunito-sans-extrabold';
+    font-size: 3.354rem;
+    color: #ffffff;
+}
+
+#leadership_page #leader_speech .container .row .col-md-7 .leader_position{
+    font-family: 'nunito-sans-extrabold';
+    font-size: 3.354rem;
+    color: #ff7623;
+}
+
+#leadership_page #leader_speech .container .row .col-md-7 .leader_speech1{
+    margin-top: 11.5rem;
+    font-family: 'nunito-sans-bold';
+    font-size: 1.9rem;
+    color: #ffffff;
+
+}
+
+#leadership_page #leader_speech .container .row .col-md-7 .leader_speech2{
+    margin-top: 3.8rem;
+    font-family: 'nunito-sans-bold';
+    font-size: 1.9rem;
+    color: #ffffff;
+}
+
+#leadership_page #leader_speech .container .row .col-md-7::after {
+    content: "";
+    display: block;
+    height: .5rem;
+    background: #ff7623;
+    width: 18.2rem;
+    margin-top: 11.5rem;
+}
+
+#leadership_page #train{
+    background-image: url('../../img/leadership_train.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 16rem;
+}
+
+
+
+#leadership_page #leadership_team{
+    background-color: #013a56;
+}
+
+#leadership_page #leadership_team .container .row{
+    margin: 6.8rem .7rem;
+}
+
+#leadership_page #leadership_team .container .row .col-sm-8 p{
+    color: #ffffff;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2.4rem;
+}
+
+#leadership_page #leadership_team .container .row .col-sm-4 a:link,
+#leadership_page #leadership_team .container .row .col-sm-4 a:visited{
+    display: inline-block;
+    color: #0b60a9;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 2.2rem 5.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+/* <----- End of leadership page css -----> */
+
+
+
+
+/* <----- Start of capibilities page css -----> */
+
+
+
+#capabilities_page #capabilities_hero{
+    
+    background-image: url(../../img/Capabilities_Page_hero_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#capabilities_page #capabilities_hero .container{
+    text-align: center;
+    padding: 17.2rem 0;
+}
+
+#capabilities_page #capabilities_hero .container i{
+    width: 9.1rem;
+    height: 9.1rem;
+    border-radius: 50%;
+    padding: 3.5rem 3.2rem;
+    background-color: #ff7623;
+    color: #ffffff;
+    font-size: 2.4rem;
+}
+
+#capabilities_page #capabilities_hero .container h2{
+    font-family: 'nunito-sans-extrabold';
+    font-size: 6rem;
+    color: #ffffff;
+    margin-top: 1.2rem;
+}
+
+#capabilities_page #capabilities_service{
+   background-image: url("../../img/Capabilities_service_layer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#capabilities_page #capabilities_service .container{
+    padding: 10rem 0;
+}
+
+#capabilities_page #capabilities_service .container .row {
+    margin: 0 2rem;
+}
+
+
+#capabilities_page #capabilities_service .container .row .col-sm-2half{
+    width: 20.9rem;
+    text-align: center;
+    position: relative;
+    margin: 1rem auto;
+}
+
+#capabilities_page #capabilities_service .container .row .col-sm-2half i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 7.3rem;
+    height: 7.3rem;
+    border: .8rem solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #6b0655;
+    font-size: 2rem;
+    padding: 1.8rem 1rem;
+    
+}
+
+#capabilities_page #capabilities_service .container .row .col-sm-2half .text {
+    background-color: #002e45;
+    height: 13.6rem;
+    margin-top: 3.8rem;
+}
+
+
+#capabilities_page #capabilities_service .container .row .col-sm-2half .text p{
+    font-family: 'Lato';
+    font-size: 1.7rem;
+    color: #ffffff;
+    padding-top: 7.6rem;
+    
+}
+
+#capabilities_page #capabilities_transportation_service{
+    background-image: url(../../img/capabilities_transportation-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#capabilities_page #capabilities_transportation_service .container{
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+}
+
+
+#capabilities_page #capabilities_transportation_service .container .intro{
+    
+    text-align: center;
+}
+
+#capabilities_page #capabilities_transportation_service .container .intro img{
+    
+    width: 30.8rem;
+    height: 6.3rem;
+}
+
+#capabilities_page #capabilities_transportation_service .container .intro h4{
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2.8rem;
+    margin-top: 1.2rem;
+    
+}
+
+#capabilities_page #capabilities_transportation_service .container .intro p{
+    margin: 2rem 2.1rem;
+    font-family: 'nunito-sans-semibold';
+    font-size: 1.6rem;
+    
+}
+
+
+#capabilities_page #capabilities_transportation_service .container .history{
+    text-align: center;
+}
+
+#capabilities_page #capabilities_transportation_service .container .history i{
+    width: 7.3rem;
+    height: 7.3rem;
+    border-radius: 50%;
+    padding: 2rem 1.8rem;
+    background-color: #0b60a9;
+    color: #ffffff;
+    font-size: 3.2rem;
+    margin-top: 2.7rem;
+}
+
+#capabilities_page #capabilities_transportation_service .container .history h3{
+    color: #ff7623;
+    font-family: 'Lato';
+    font-size: 2.3rem;
+    margin-top: 2.4rem;
+}
+
+#capabilities_page #capabilities_transportation_service .container .history p{
+    
+    color: #2e2e2e;
+    font-family: 'nunito-sans-bold';
+    font-size: 1.6rem;
+    margin-top: 3rem;
+}
+
+#capabilities_page #capabilities_transportation_service .container .service{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+#capabilities_page #capabilities_transportation_service .container .service h3{
+    font-family: 'nunito-sans-extrabold';
+    font-size: 3rem;
+    color: #002e45;
+}
+
+#capabilities_page #capabilities_transportation_service .container .service .row{
+    margin: 0 2rem;
+}
+#capabilities_page #capabilities_transportation_service .container .service .row .col-sm{
+    text-align: left;
+    font-family: 'nunito-sans-bold';
+    font-size: 1.9rem;
+    color: #1b1b1b;
+    margin-top: 5.4rem;
+    
+}
+
+#capabilities_page #capabilities_transportation_service .container .service .row .col-sm ul li{
+    margin-left: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#capabilities_page #capabilities_transportation_service .container .service .row .col-sm ul li span{
+    margin-left: 3.2rem;
+}
+
+#capabilities_page #capabilities_transportation_service .container .service .row .col-sm ul li i{
+    color: #1063ab;
+}
+
+#capabilities_page #capabilities_transportation_service .container .service .row .col-sm:last-child ul li:first-child{
+    margin-bottom: 4.3rem;
+}
+
+#capabilities_page #capabilities_construction{
+   background-image: url("../../img/Capabilities_construction_layer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#capabilities_page #capabilities_construction .container{
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+
+#capabilities_page #capabilities_construction .container i{
+    width: 7.3rem;
+    height: 7.3rem;
+    border: .8rem solid #e7f4ff;
+    border-radius: 50%;
+    background-color: #0b60a9;
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding: 1.2rem 1.8rem;
+}
+
+#capabilities_page #capabilities_construction .container h3{
+    margin-top: 1.7rem;
+    color: #ff7623;
+    font-family: 'Lato';
+    font-size: 2.3rem;
+}
+
+#capabilities_page #capabilities_construction .container .row .col-md{
+    margin-top: 5.7rem;
+    text-align: left;
+}
+
+#capabilities_page #capabilities_construction .container .row .col-md h5{
+    border-left: .4rem solid #0b60a9;
+}
+#capabilities_page #capabilities_construction .container .row .col-md  h5, 
+#capabilities_page #capabilities_construction .container .row .col-md  h3{
+    display: inline-block;
+    margin: 0;
+}
+
+#capabilities_page #capabilities_construction .container .row .col-md h5{
+    float:left;
+    margin-top: 1rem;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2rem;
+    color: #1b1b1b;
+    padding: .2rem 1.1rem;
+    
+}
+
+#capabilities_page #capabilities_construction .container .row .col-md h3{
+    margin-left: 5rem;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 4rem;
+    color: #002e45;
+}
+
+#capabilities_page #capabilities_construction .container .row .col-md p{
+    padding: 0 1.8rem;
+    font-family: 'nunito-sans-semibold';
+    font-size: 1.6rem;
+    color: #2e2e2e;
+}
+
+#capabilities_page #capabilities_performance{
+    background-image: url('../../img/Capabilities_Page_blue_background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#capabilities_page #capabilities_performance .container{
+    padding: 7rem 0 3rem;
+    text-align: center;
+}
+
+
+#capabilities_page #capabilities_performance .container i{
+    width: 7.3rem;
+    height: 7.3rem;
+    border: .8rem solid #ffffff;
+    border-radius: 50%;
+    background-color: #0b60a9;
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding: 1.4rem 1.8rem;
+}
+
+#capabilities_page #capabilities_performance .container h4{
+    margin: 1.7rem 0;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 2.3rem;
+}
+
+#capabilities_page #capabilities_performance .container .first_p{
+    margin: 2rem 20rem;
+    color: #ffffff;
+    font-family: 'nunito-sans-bold';
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+#capabilities_page #capabilities_performance .container .second_p{
+    margin: 2rem 9rem;
+    color: #ffffff;
+    font-family: 'nunito-sans';
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+#capabilities_page #capabilities_performance .container .third_p{
+    margin: 2rem 15rem;
+    color: #3979a9;
+    font-family: 'nunito-sans-bold';
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+#capabilities_page #capabilities_performance .container .first_row{
+    margin: 0 2rem;
+    
+}
+
+#capabilities_page #capabilities_performance .container .row .col-md{
+    text-align: left;
+    margin: 5rem 1.5rem;
+    padding: 0;
+    background-color: #ffffff;
+    
+}
+
+#capabilities_page #capabilities_performance .container .row .col-md .heading{
+    
+    height: 7rem;
+    background-color: #0b60a9;
+} 
+
+#capabilities_page #capabilities_performance .container .row .col-md .heading h5,
+#capabilities_page #capabilities_performance .container .row .col-md .heading h3{
+    display: inline-block;
+    margin: 0;
+}
+
+#capabilities_page #capabilities_performance .container .row .col-md .heading h5{
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2.1rem;
+    color: #ffffff;
+    width: 20.6rem;
+    margin-left: 2.7rem;
+    margin-top: 2.6rem;
+}
+
+#capabilities_page #capabilities_performance .container .row .col-md .heading h3{
+    float: right;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 4rem;
+    color: #7cc2ff;
+    margin-top: 1.8rem;
+    margin-right: 3.4rem;
+}
+
+#capabilities_page #capabilities_performance .container .row .col-md:nth-child(2) .heading h5{
+    margin-top: 1.2rem;
+}
+
+
+#capabilities_page #capabilities_performance .container .row .col-md ul li{
+    color: #616364;
+    font-family: 'nunito-sans-semibold';
+    font-size: 1.6rem;
+    margin-left: 4.5rem;
+    margin-top: 1.7rem;
+}
+
+#capabilities_page #capabilities_performance .container .row .col-md ul li::before {
+  content: "\2022";
+  color: #0b60a9;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+#capabilities_page #capabilities_performance .container .row .col-md:nth-child(2) ul li{
+    margin-left: 5.6rem;
+}
+
+#capabilities_page #capabilities_logistic_service{
+    background-image: url('../../img/capabilities_logistics-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#capabilities_page #capabilities_logistic_service .container{
+    text-align: center;
+    padding: 7.3rem 0;
+}
+
+#capabilities_page #capabilities_logistic_service .container i{
+    width: 7.3rem;
+    height: 7.3rem;
+    border: .8rem solid #ffffff;
+    border-radius: 50%;
+    background-color: #0b60a9;
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding: 1.5rem 1.3rem;
+}
+#capabilities_page #capabilities_logistic_service .container h3{
+    margin-top: 1.7rem;
+    color: #ff7623;
+    font-family: 'Lato';
+    font-size: 2.3rem;
+}
+
+#capabilities_page #capabilities_logistic_service .container p{
+    margin: 3rem 10rem;
+    color: #2e2e2e;
+    font-family: 'nunito-sans-bold';
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+#capabilities_page #capabilities_logistic_service .container .row{
+    margin: 0 2rem;
+}
+
+#capabilities_page #capabilities_logistic_service .container .row .col-sm{
+    text-align: left;
+    margin: 3.5rem 1.5rem;
+    padding: 0;
+}
+
+
+#capabilities_page #capabilities_logistic_service .container .row .col-sm .capabilities_logistic_service_heading h3,
+#capabilities_page #capabilities_logistic_service .container .row .col-sm .capabilities_logistic_service_heading h4{
+    display: inline-block;
+    margin: 0;
+}
+
+#capabilities_page #capabilities_logistic_service .container .row .col-sm .capabilities_logistic_service_heading h3{
+    float: left;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 4rem;
+    color: #0b60a9;
+    margin-right: 2.1rem;
+}
+
+#capabilities_page #capabilities_logistic_service .container .row .col-sm .capabilities_logistic_service_heading h4{
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2.1rem;
+    color: #4484ba;
+    width: 19rem;
+    margin-top: 1rem;
+    
+}
+
+#capabilities_page #capabilities_logistic_service .container .row .col-sm:first-child .capabilities_logistic_service_heading h4{
+    margin-top: .5rem;
+    
+}
+
+
+
+#capabilities_page #capabilities_logistic_service .container .row .col-sm ul li{
+    color: #1b1b1b;
+    font-family: 'nunito-sans-bold';
+    font-size: 1.9rem;
+    margin-left: 3.7rem;
+    margin-top: 2rem;
+}
+
+#capabilities_page #capabilities_logistic_service .container .row .col-sm ul li i{
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    color: #1063ab;
+    font-size: 1.9rem;
+    margin-left: 2rem;
+}
+
+
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm:first-child{
+   background-color: #002e45;
+    
+}
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm:first-child .heading{
+   margin-top: 6.2rem;
+   margin-left: 24.8rem;
+}
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm .heading i,
+#capabilities_page #capabilities_management_and_procurement .row .col-sm .heading h3{
+  display: inline-block;
+}
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm .heading i{
+    width: 8.3rem;
+    height: 8.3rem;
+    border: .5rem solid #f0f8ff;
+    border-radius: 50%;
+    background-color: #0b60a9;
+    color: #eaf1f8;
+    font-size: 2.5rem;
+    padding: 2.5rem 2.3rem;
+}
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm:first-child .heading h3{
+    color: #f4f8fb;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 3rem;
+    margin-left: 2.4rem;
+}
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm:first-child .text{
+   margin-top: 3.5rem;
+   margin-left: 24.8rem;
+   color: #fcfcfc;
+}
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm:first-child .text h5{
+   font-family: 'nunito-sans-extrabold';
+   font-size: 1.8rem;
+   margin-right: 4.7rem;
+   margin-bottom: 3.3rem;
+}
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm:first-child .text p{
+   font-family: 'nunito-sans-semibold';
+   font-size: 1.5rem;
+   margin-bottom: 3.4rem;
+   margin-right: 7.4rem;
+}
+
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm:last-child .heading{
+   margin-top: 6.2rem;
+   margin-left: 3.9rem;
+}
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm:last-child .heading h3{
+   color: #0b60a9;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 3rem;
+    margin-left: 2.4rem;
+}
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm:last-child .text{
+   margin-top: 3.3rem;
+   margin-left: 3.9rem;
+   color: #0b60a9;
+}
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm:last-child .text h5{
+   font-family: 'nunito-sans-extrabold';
+   font-size: 1.8rem;
+   margin-bottom: 3.6rem;
+   margin-right: 28.3rem;
+}
+
+#capabilities_page #capabilities_management_and_procurement .row .col-sm:last-child .text p{
+   font-family: 'nunito-sans-semibold';
+   font-size: 1.7rem;
+   margin-bottom: 2.8rem;
+   margin-right: 23.6rem;
+}
+
+#capabilities_page #capabilities_techaccess{
+     position: relative;
+    
+}
+
+#capabilities_page .capabilities_layer{
+    background-image: url('../../img/Capabilities_layer.png');
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-position: center bottom;
+}
+
+
+#capabilities_page #capabilities_techaccess .color{
+    background-color: #f4f8fb;
+    position: absolute;
+    top: 0;
+    height: 38rem;
+    width: 100%;
+    z-index: -1;
+}
+
+#capabilities_page #capabilities_techaccess .container .text{
+    
+    margin-top: 8rem;
+   text-align: center;
+}
+
+#capabilities_page #capabilities_techaccess .container .text h2{
+    
+    font-family: 'nunito-sans-extrabold';
+    font-size: 3rem;
+    color: #0b60a9;
+}
+
+#capabilities_page #capabilities_techaccess .container .text h2::after {
+    content: "";
+    display: block;
+    height: .4rem;
+    background: #0b60a9;
+    width: 10.5rem;
+    margin: 1.9rem auto;
+    border: .1rem solid transparent;
+    border-radius: 5rem;
+}
+#capabilities_page #capabilities_techaccess .container .text p{
+    font-family: 'nunito-sans-semibold';
+    font-size: 1.6rem;
+    color: #2e2e2e;
+    margin: 2.6rem 24rem 0;
+    
+}
+
+#capabilities_page #capabilities_techaccess .container .row .col-md{
+    padding: 0;
+    margin: 5.5rem 2rem;
+    background-color: #ffffff;
+    margin-right: 2rem;
+    -webkit-box-shadow: 0rem 2rem 5rem #dbdbdb;
+            box-shadow: 0rem 2rem 5rem #dbdbdb;
+}
+#capabilities_page #capabilities_techaccess .container .row .col-md .heading{
+    background-color: #002e45;
+    color: #ffffff;
+    height: 7rem;
+    padding: 2.7rem;
+    margin-bottom: 2.4rem;
+}
+
+#capabilities_page #capabilities_techaccess .container .row .col-md .heading p{
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2.1rem;
+}
+
+#capabilities_page #capabilities_techaccess .container .row .col-md ul li{
+    font-family: 'nunito-sans-semibold';
+    font-size: 2.1rem;
+    color: #616364;
+    margin-left: 4.5rem;
+    margin-bottom: 1.8rem;
+}
+
+#capabilities_page #capabilities_techaccess .container .row .col-md ul li::before {
+  content: "\2022";
+  color: #0b60a9;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -2rem;
+}
+
+#capabilities_page #capabilities_energy_and_power .container{
+    text-align: center;
+    margin-bottom: 12.5rem;
+}
+
+#capabilities_page #capabilities_energy_and_power .container i{
+    /* margin-top: 3rem; */
+    width: 7.3rem;
+    height: 7.3rem;
+    border-radius: 50%;
+    background-color: #0b60a8;
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding: 2.5rem 2.3rem;
+}
+    
+#capabilities_page #capabilities_energy_and_power .container h2{
+    color: #ff7623;
+    font-family: 'Lato';
+    font-size: 2.3rem;
+    margin-top: 2.5rem;
+}
+
+#capabilities_page #capabilities_energy_and_power .container p{
+    color: #2e2e2e;
+    font-family: 'nunito-sans-semibold';
+    font-size: 1.6rem;
+    margin: 0 4.5rem;
+    margin-top: 3.5rem;
+    line-height: 2rem;
+}
+
+#capabilities_page #capabilities_energy_and_power .container .first_p{
+    margin: 0 15rem;
+    margin-top: 3.5rem;
+}
+#capabilities_page #capabilities_energy_and_power .container h4{
+    margin-top: 4.4rem;
+    font-family: 'Lato';
+    font-size: 2.3rem;
+    color: #000000;
+}
+
+
+#capabilities_page #capabilities_energy_and_power .container .row .col-sm{
+    padding: 0;
+    width: 54.1rem;
+    background-color: #ffffff;
+    margin: 0 2rem;
+    margin-top: 3.8rem;
+    -webkit-box-shadow: 0 2rem 5rem #dbdbdb;
+            box-shadow: 0 2rem 5rem #dbdbdb;
+    text-align: left;
+}
+#capabilities_page #capabilities_energy_and_power .container .row .col-sm .heading{
+    background-color: #002e45;
+    padding: 2.7rem;
+    margin-bottom: 2.8rem;
+}
+
+#capabilities_page #capabilities_energy_and_power .container .row .col-sm .heading p{
+    margin: 0;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2.1rem;
+    color: #ffffff;
+}
+
+#capabilities_page #capabilities_energy_and_power .container .row .col-sm ul li{
+    font-family: 'nunito-sans-semibold';
+    font-size: 2.1rem;
+    color: #616364;
+    margin-left: 3.5rem;
+    margin-bottom: 1.8rem;
+}
+
+#capabilities_page #capabilities_energy_and_power .container .row .col-sm ul li::before {
+  content: "\2022";
+  color: #0b60a9;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1rem;
+}
+
+#capabilities_page #capabilities_staff{
+    background-color: #f4f8fb;
+    text-align: center;
+}
+
+#capabilities_page #capabilities_staff .container{
+    padding: 6rem 0;
+}
+
+#capabilities_page #capabilities_staff .container .first_p{
+    margin: 1.6rem 15rem;
+    font-family: 'nunito-sans-semibold';
+    font-size: 2.3rem;
+    color: #000000;
+}
+
+#capabilities_page #capabilities_staff .container .first_p::after {
+    content: "";
+    display: block;
+    height: .4rem;
+    background: #0b60a9;
+    width: 10.5rem;
+    margin: 1.4rem auto;
+    border: .1rem solid transparent;
+    border-radius: 5rem;
+}
+
+#capabilities_page #capabilities_staff .container .row {
+    margin: 0 5rem;
+    margin-top: 1.6rem;
+    text-align: left;
+}
+
+#capabilities_page #capabilities_staff .container .row .col-sm-8 p{
+    color: #2e2e2e;
+    font-family: 'nunito-sans-semibold';
+    font-size: 1.6rem;
+
+}
+
+#capabilities_page #capabilities_staff .container .row .col-sm-4 p{
+    color: #2e2e2e;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 1.6rem;
+}
+
+
+#capabilities_page #capabilities_legal_and_consultancy{
+    background-image: url('../../img/capabilities_legal-consultancy-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#capabilities_page #capabilities_legal_and_consultancy .container{
+    padding: 8rem 0;
+}
+
+#capabilities_page #capabilities_legal_and_consultancy .container .row{
+    margin: 0 3.2rem;
+}
+
+
+
+#capabilities_page #capabilities_legal_and_consultancy .container .row .col-sm-4 i,
+#capabilities_page #capabilities_legal_and_consultancy .container .row .col-sm-4 h2{
+    display: inline-block;
+}
+
+#capabilities_page #capabilities_legal_and_consultancy .container .row .col-sm-4 i{
+    width: 7.3rem;
+    height: 7.3rem;
+    border: .9rem solid #ffffff;
+    border-radius: 50%;
+    background-color: #0b60a9;
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding: 1.4rem 1.5rem;
+}
+
+#capabilities_page #capabilities_legal_and_consultancy .container .row .col-sm-4 h2{
+    color: #0a5ba0;
+    margin-left: 1.6rem;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2.4rem;
+}
+
+#capabilities_page #capabilities_legal_and_consultancy .container .row .col-sm-8 p{
+    color: #2e2e2e;
+    margin-left: 1.6rem;
+    font-family: 'nunito-sans-semibold';
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+#capabilities_page #capabilities_legal_and_consultancy .container .row .col-sm{
+    padding: 0;
+    margin: 0 1.89rem;
+    margin-top: 5rem;
+    color: #2e2e2e;
+    font-family: 'nunito-sans-semibold';
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+#capabilities_page #capabilities_legal_and_consultancy .container .row .col-sm ul li{
+    padding: 2.3rem 0 2.2rem 3.2rem;
+    margin-top: 2rem;
+    color: #2e2e2e;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 1.6rem;
+    background-color: #ffffff;
+    border-left: .4rem solid #0b60a9;
+    -webkit-box-shadow: 0 2rem 5rem #dfdfdf;
+            box-shadow: 0 2rem 5rem #dfdfdf;
+}
+
+#capabilities_page #capabilities_team{
+    background-color: #013a56;
+}
+
+#capabilities_page #capabilities_team .container .row{
+    margin: 6.8rem .7rem;
+}
+
+#capabilities_page #capabilities_team .container .row .col-sm-8 p{
+    color: #ffffff;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2.4rem;
+}
+
+#capabilities_page #capabilities_team .container .row .col-sm-4 a:link,
+#capabilities_page #capabilities_team .container .row .col-sm-4 a:visited{
+    display: inline-block;
+    color: #0b60a9;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 2.2rem 5.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+
+
+#contact_page #contact_form{
+   background: -webkit-gradient(linear, left top, left bottom, from(rgba(217, 217, 217, .5)), to(rgba(217, 217, 217, .5))), url("../../img/contact-bg.jpg");
+   background: -o-linear-gradient(rgba(217, 217, 217, .5), rgba(217, 217, 217, .5)), url("../../img/contact-bg.jpg");
+   background: linear-gradient(rgba(217, 217, 217, .5), rgba(217, 217, 217, .5)), url("../../img/contact-bg.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+#contact_page #contact_form .container .row{
+   margin: 0 2rem;
+}
+
+#contact_page #contact_form .container .row .col-sm{
+   margin: 3rem 0;
+}
+
+
+
+#contact_page #contact_form .container .row .first_col{
+    background-color: #ffffff;
+    border-left: .5rem solid #0b60a9;
+}
+
+#contact_page #contact_form .container .row .first_col h5{
+    color: #0b60a9;
+    text-transform: uppercase;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2rem;
+    margin-top: 6.8rem;
+    margin-left: 4.5rem;
+}
+
+#contact_page #contact_form .container .row .first_col h3{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 3.6rem;
+    margin-top: 1.2rem;
+    margin-left: 4.5rem;
+}
+#contact_page #contact_form .container .row .first_col h3:after{
+    content: "";
+    display: block;
+    height: .3rem;
+    background: #0074be;
+    width: 3.8rem;
+    margin-top: 3rem;
+}
+
+#contact_page #contact_form .container .row .first_col form .form-row{
+    margin: 0;
+    margin: 2.2rem 4rem 0;
+    
+}
+#contact_page #contact_form .container .row .first_col form .form-row .col{
+    border: none;
+}
+#contact_page #contact_form .container .row .first_col form .form-row .col input{
+    background-color: #f2f2f2;
+    border: 0rem solid #f2f2f2;
+    padding: 1.8rem;
+    font-size: 1.4rem;
+}
+
+
+#contact_page #contact_form .container .row .first_col form .form-row textarea{
+    background-color: #f2f2f2;
+    border: 0rem solid #f2f2f2;
+    height: 12.7rem;
+    padding: 1.8rem;
+    font-size: 1.4rem;
+}
+#contact_page #contact_form .container .row .first_col form .form-row .btn{
+    margin-top: 3rem;
+    background-color: #0b60a9;
+    color: #ffffff;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 1.8rem;
+    border: 0rem solid #f2f2f2;
+    padding: 2.2rem 6.1rem;
+    margin-bottom: 5.6rem;
+}
+
+#contact_page #contact_form .container .row .second_col{
+    position: relative;
+}
+
+#contact_page #contact_form .container .row .second_col .normal_contact{
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+   background-color: #ffffff;
+   padding: 5rem;
+}
+
+#contact_page #contact_form .container .row .second_col .normal_contact .contact-info{
+    margin-bottom: 1rem;
+}
+
+#contact_page #contact_form .container .row .second_col .normal_contact .contact-info i,
+#contact_page #contact_form .container .row .second_col .normal_contact .contact-info p{
+    display: inline-block;
+}
+
+#contact_page #contact_form .container .row .second_col .normal_contact .contact-info i{
+    font-size: 1.4rem;
+    margin-left: 3.3rem;
+    color: #3b96ed;
+}
+#contact_page #contact_form .container .row .second_col .normal_contact .contact-info p{
+    font-family: 'gotham-book';
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-left: .5rem;
+    color: #000000;
+}
+
+#contact_page #contact_map{
+    
+    width: 100%;
+    height: 68.8rem;
+    background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../../img/map.jpg);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 1))), url(../../img/map.jpg);
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+#contact{
+    position: relative;
+}
+
+#contact .map{
+    width: 100%;
+    height: 68.8rem;
+    background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../../img/map.jpg);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 1))), url(../../img/map.jpg);
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#contact .form{
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    right: 0;
+}
+
+#contact .form .container .row .col-sm{
+    padding: 0;
+    margin: 2rem ;
+}
+
+
+#contact .form .container .row .first_col{
+
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+#contact .form .container .row .first_col i{
+    display: block;
+    margin-top: 2.5rem;
+    color: #0b60a9;
+    font-size: 3rem;
+}
+#contact .form .container .row .first_col .normal_contact{
+    display: none;
+    margin: 0 auto;
+}
+
+
+#contact .form .container .row .first_col i:hover{
+    cursor: pointer;
+}
+
+#contact .form .container .row .first_col i:hover + .normal_contact{
+    display: block;
+    width: 50%;
+    background-color: #ffffff;
+    margin-top: 1.5rem;
+}
+
+.normal_contact{
+    border: .4rem solid #013a56;
+}
+
+#contact .form .container .row .first_col .normal_contact .contact-info i,
+#contact .form .container .row .first_col .normal_contact .contact-info p{
+    display: inline-block;
+}
+
+#contact .form .container .row .first_col .normal_contact .contact-info i{
+    font-size: 1.4rem;
+    margin-left: 3.3rem;
+    color: #3b96ed;
+}
+#contact .form .container .row .first_col .normal_contact .contact-info p{
+    font-family: 'gotham-book';
+    font-size: 1.4rem;
+    margin-left: .5rem;
+    
+}
+
+#contact .form .container .row .first_col .normal_contact .last_contact_info .last_p{
+    margin-left: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+#contact .form .container .row .second_col{
+    background-color: #ffffff;
+    border-left: .5rem solid #0b60a9;
+}
+
+#contact .form .container .row .second_col h5{
+    color: #0b60a9;
+    text-transform: uppercase;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 2rem;
+    margin-top: 6.8rem;
+    margin-left: 4.5rem;
+}
+
+#contact .form .container .row .second_col h3{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 3.6rem;
+    margin-top: 1.2rem;
+    margin-left: 4.5rem;
+}
+#contact .form .container .row .second_col h3:after{
+    content: "";
+    display: block;
+    height: .3rem;
+    background: #0074be;
+    width: 3.8rem;
+    margin-top: 3rem;
+}
+
+#contact .form .container .row .second_col form .form-row{
+    margin: 0;
+    margin: 2.2rem 4rem 0;
+    
+}
+#contact .form .container .row .second_col form .form-row .col{
+    border: none;
+}
+#contact .form .container .row .second_col form .form-row .col input{
+    background-color: #f2f2f2;
+    border: 0rem solid #f2f2f2;
+    padding: 1.8rem;
+    font-size: 1.4rem;
+}
+
+
+#contact .form .container .row .second_col form .form-row textarea{
+    background-color: #f2f2f2;
+    border: 0rem solid #f2f2f2;
+    height: 12.7rem;
+    padding: 1.8rem;
+    font-size: 1.4rem;
+}
+#contact .form .container .row .second_col form .form-row .btn{
+    margin-top: 3rem;
+    background-color: #0b60a9;
+    color: #ffffff;
+    font-family: 'nunito-sans-extrabold';
+    font-size: 1.8rem;
+    border: 0rem solid #f2f2f2;
+    padding: 2.2rem 6.1rem;
+    margin-bottom: 5.6rem;
+}
+
+#contact .footer{
+    background-image: url(../../img/home-contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+    text-align: left;
+}
+ 
+#contact .footer .container .row{
+    padding-top: 13.5rem;
+    padding-bottom: 6rem;
+}
+
+#contact .footer .container .row .col-md{
+    margin-top: 2rem;
+}
+
+#contact .footer .container .row .first_col img{
+    margin-bottom: 3rem;
+}
+
+#contact .footer .container .row .col-md  p, #contact .footer .container .row .col-md i{
+    display: inline-block;
+}
+
+#contact .footer .container .row .first_col p{
+    font-family: 'gotham-medium';
+    font-size: 1.6rem;
+}
+
+#contact .footer .container .row .first_col a:link,
+#contact .footer .container .row .first_col a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+#contact .footer .container .row .first_col a i{
+    margin-left: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #1f2d4a;
+    border: .2rem solid  #0172bb;
+    border-radius: 50%;
+    text-align: center;
+    padding: .7rem;
+}
+
+#contact .footer .container .row .first_col a i:hover{
+    background-color: #0074be;
+}
+
+#contact .footer .container .row .col-md h5{
+    font-family: 'gotham-medium';
+    font-size: 1.8rem;
+    margin-bottom: 4.5rem;
+}
+
+
+#contact .footer .container .row .second_col ul li a:link,
+#contact .footer .container .row .second_col ul li a:visited{
+    font-family: 'nunito-sans-semibold';
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#contact .footer .container .row .third_col .contact-info{
+    margin-bottom: 3.5rem;
+}
+
+
+#contact .footer .container .row .third_col .contact-info i{
+    color: #3b96ed;
+    margin-right: 2rem;
+    font-size: 1.6rem;
+}
+
+#contact .footer .container .row .third_col .contact-info p{
+    font-family: 'gotham-book';
+    font-size: 1.4rem;
+    
+}
+
+
+#contact .footer .container .row .fourth_col i{
+    margin-right: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #1f2d4a;
+    border: .2rem solid  #0074be;
+    border-radius: 50%;
+    text-align: center;
+    padding: .7rem;
+}
+
+#contact .footer .container .row .fourth_col i:hover{
+    background-color: #0074be;
+}
+#contact .footer .container .row .fourth_col p{
+    font-family: 'nunito-sans-semibold';
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+
+footer{
+    background-color: #0b1326;
+    color: #ffffff;
+    padding: 4.4rem 0;
+    
+}
+
+
+footer .container .row .first_col p{
+    font-family: 'gotham-book';
+    font-size: 1.4rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+footer .container .row .second_col p{
+    font-family: 'gotham-book';
+    font-size: 1.4rem;
+    text-align: right;
+}

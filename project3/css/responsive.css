@@ -1,0 +1,111 @@
+@media only screen and (max-width:1200px) {
+    header {
+        height: 65vh;
+    }
+    .row {
+        margin: 0 15px;
+    }
+    #program .row p{
+        padding: 0 20rem;
+    }
+    #program .row form .btn-submit{
+        width: 15%;
+    }
+}
+@media only screen and (max-width:1024px) {
+   
+    /* header {
+        height: 65vh;
+    } */
+
+    html {
+        font-size: 57.5%;
+    }
+    
+}
+
+@media only screen and (max-width:980px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    #experience .row .col{
+    padding-left: 4rem;
+}
+}
+
+@media only screen and (max-width:768px) {
+   html{
+       font-size: 50%;
+   }
+
+}
+
+@media only screen and (max-width:640px) {
+
+    #experience .row .col {
+    width: 80%;
+}
+
+ #experience .row .col{
+    margin: 10rem 0;
+    padding-left: 22rem;
+    
+}
+
+#experience .row .text{
+    margin-top: 0;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-left: 18rem;
+}
+
+#experience .row .col p{
+    padding-right: 0;
+    
+}
+   #program .row form .btn-submit{
+        width: 20%;
+    }
+
+}
+
+
+@media only screen and (max-width:480px) {
+
+   html {
+    font-size: 50%;
+}
+    #experience .row .col{
+    padding-left: 12rem;
+    text-align: center;
+}
+
+#experience .row .text{
+    text-align: center;
+    padding-left: 14rem;
+}
+
+#program .row p{
+    padding: 0 2rem;
+}
+
+ #program .row form .btn-submit{
+        width: 30%;
+    }
+
+}
+
+ @media only screen and (max-width:380px) {
+
+   html {
+    font-size: 40%;
+}
+} 
+
+@media only screen and (max-width:320px) {
+
+   html {
+    font-size: 30%;
+}
+} 
